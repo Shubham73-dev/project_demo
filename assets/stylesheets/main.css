@@ -1,0 +1,653 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #E5EEF5;
+}
+/* carousel */
+.set_height{
+    height: 500px;
+  }
+  .black{
+    background-color: black;
+  }
+.row_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_header{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo_header img{
+    width: 50%;
+}
+.search{
+    width: 10%;
+}
+#article{
+    height:1000px;
+    width: 100%;
+    background-image: url('https://www.dew.network/wp-content/uploads/2020/01/blocks-image-162.jpg?id=1084');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.what_we_do{
+    position: absolute;
+    top: 5px%;
+    left:40%;
+    margin-top:35px;
+}
+.what_we_do span{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.what_we_do p{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.block_chain_launchpad{
+    position: absolute;
+    top: 15%;
+    left:10%;
+    width: 40%;
+    margin: 0 auto;
+    /* color: gray; */
+}
+.block_chain_launchpad span{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.block_chain_launchpad p{
+    letter-spacing: 2px;
+    text-align: justify;
+    color: gray;
+}
+.row_container{
+    position: absolute;
+    top: 35%;
+    left:0%;
+    width: 100%;
+}
+.col_1{
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* border: 1px solid black; */
+    background-color: #F0F3F2;
+    height: 348px;
+    width: 25%;
+    transition-duration: 1s;
+}
+.heading{
+    margin-bottom: 45px;
+}
+.heading h1{
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+.col_1 span{
+    font-size: 35px;
+    color: #CE93D8;
+    transform: scale(1,1);
+}
+ .icon{
+    display: flex;
+    justify-content: center;
+    margin-top:12%;
+    margin-bottom: 15px;
+}
+ .para{
+    padding: 5px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
+.col_2{
+    width: 26%;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    /* border: 1px solid black; */
+    background-color: #F0F3F2;
+    height: 420px;
+}
+.col_2 span{
+    font-size: 35px;
+    color: #CE93D8;
+}
+.para p{
+    text-align: center;
+    letter-spacing: 2px;
+    /* word-spacing: 2px; */
+    color: gray;
+}
+
+.col_3{
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    right:12%;
+    /* border: 1px solid black; */
+    background-color: #F0F3F2;
+    height: 348px;
+}
+.col_3 span{
+    font-size: 35px;
+    color: #CE93D8;
+}
+/* featured products */
+#featured_products{
+    height: 1166px;
+    width: 100%;
+    background-image: url('https://www.dew.network/wp-content/uploads/2019/09/2-8.jpg?id=689');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.heading_2{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.heading_2 span{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.para_2{
+    position: absolute;
+    top: 15%;
+    left: 22%;
+}
+.para_2 p{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: gray;
+    font-size: 25px;
+    text-align: center;
+}
+.col-1{
+    border: 1px solid black;
+    width: 25%;
+    position: absolute;
+    top: 32%;
+    left: 15%;
+    background-color: #FFFFFF;
+    height: 700px;
+    border-radius: 1%;
+}
+.col-1 ul{
+    height: 700px;
+    display: block;
+    width: 100%;
+}
+.col-1 ul li {
+    border-bottom: 1px solid black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    text-transform: capitalize;
+}
+.col-1 ul li:last-child{
+    border-bottom: none;
+    position: relative;
+}
+.col-1 ul li:last-child span{
+    margin-bottom: 45px;
+}
+.first_list span{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.second_list span{
+    font-size: 50px;
+    color: #00BCD4;
+    /* font-weight: 100; */
+}
+.pos{
+    position: absolute;
+    bottom:11%;
+    left: 38%;
+    background-color: #FFFFFF;
+    border-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 33%;
+    height: 46px;
+    color: gray;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.pos:hover{
+    background-color: black;
+    color: white;
+}
+/* col-2 */
+.col-2{
+    border: 1px solid black;
+    width: 25%;
+    position: absolute;
+    top: 31%;
+    left: 40%;
+    background-color: #FFFFFF;
+    height: 700px;
+    border-radius: 1%;
+}
+.col-2 ul{
+    height: 700px;
+    display: block;
+    width: 100%;
+}
+.col-2 ul li {
+    border-bottom: 1px solid black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    text-transform: capitalize;
+}
+.col-2 ul li:last-child{
+    border-bottom: none;
+    position: relative;
+}
+.col-2 ul li:last-child span{
+    margin-bottom: 45px;
+}
+.first_list span{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.second_list span{
+    font-size: 50px;
+    color: #00BCD4;
+    /* font-weight: 100; */
+}
+
+/* col-3 */
+.col-3{
+    border: 1px solid black;
+    width: 25%;
+    position: absolute;
+    top: 32%;
+    left: 65%;
+    background-color: #FFFFFF;
+    height: 700px;
+    border-radius: 1%;
+}
+.col-3 ul{
+    height: 700px;
+    display: block;
+    width: 100%;
+}
+.col-3 ul li {
+    border-bottom: 1px solid black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    text-transform: capitalize;
+}
+.col-3 ul li:last-child{
+    border-bottom: none;
+    position: relative;
+}
+.col-3 ul li:last-child span{
+    margin-bottom: 45px;
+}
+.first_list span{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.second_list span{
+    font-size: 50px;
+    color: #00BCD4;
+    /* font-weight: 100; */
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #393D50;
+    position: absolute;
+    top: -4%;
+    left: 5%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo span{
+    color: whitesmoke;
+}
+/* section-3 */
+.back{
+    background-image: url('https://www.dew.network/wp-content/uploads/2020/01/blocks-image-163.jpg?id=1081');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:1000px;
+    width: 100%;
+    position: relative;
+}
+.icon_2{
+   position: absolute;
+   top:13%;
+   left: 47%;
+
+}
+.icon_2 i{
+    color:#D2FF5A;
+    font-size: 100px;
+}
+.token_economics {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+.token_economics span{
+    text-transform: uppercase;
+    font-size: 85px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+/* button */
+.buy_dew{
+    height: 45px;
+    width: 10%;
+    border: 3px solid whitesmoke;
+    border-radius: 25px;
+    color: whitesmoke;
+    background-color: transparent;
+    position: absolute;
+    bottom: 36%;
+    right: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.buy_dew span{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buy_dew:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+/* footer */
+footer{
+    background-color: #181828;
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+.copyright{
+    position: absolute;
+    top:40%;
+    left:14%;
+}
+.copyright span{
+    color:rgba(225, 225, 225, 0.5);
+    font-size: 15px;
+}
+.icon_3{
+    width: 10%;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+.icon_3 i{
+    font-size: 25px;
+    margin-right: 10px;
+    color: #00ACED;
+}
+/* back-to-top */
+.to-top{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 16px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    pointer-events: none;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.to-top i{
+    color: rgba(225, 225, 225, 0.5);
+    font-size: 12px;
+}
+.to-top.active{
+    bottom:32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+/* section-2 */
+.section-2{
+    height: 2000px;
+    width: 100%;
+    background-color: #1B354C;
+    position: relative;
+}
+.milestone{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+}
+.milestone span{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.strategy{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.strategy p{
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.div{
+    height: 12%;
+    width: 28%;
+    border: 1px solid black;
+    border-radius: 20%;
+    background-color: #171B2D;
+}
+.div_1{
+    position: absolute;
+    top: 22%;
+    left: 7%;
+}
+.div_2{
+    position: absolute;
+    top: 44%;
+    right: 8%;
+}
+.div_3{
+    position: absolute;
+    bottom: 24%;
+    left: 7%;
+}
+
+.div_4{
+    position: absolute;
+    /* top: 33%; */
+    right: 8%;
+    bottom: 5%;
+}
+.span_lt{
+    /* color: #0DBFD6; */
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 25px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 11%;
+    right: 5%;
+}
+.span_rt{
+    /* color: #0DBFD6; */
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 25px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 11%;
+    left: 5%;
+}
+.color_1{
+    color: #0DBFD6;
+}
+.color_2{
+    color: #4ED2B3;
+}
+.color_3{
+    color: #D2FF5A;
+}
+.color_4{
+    color: #FF9437;
+}
+.paragraph_lt{
+    text-transform: capitalize;
+    color: rgba(225, 225, 225, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    position: absolute;
+    top: 16%;
+    right: 5%;
+    word-spacing: 1px;
+}
+.paragraph_rt{
+    text-transform: capitalize;
+    color: rgba(225, 225, 225, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    word-spacing: 1px;
+}
+.common{
+    height: 150px;
+    width: 150px;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    z-index: 2;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.common-1{
+    position: absolute;
+    top: 24%;
+    left: 45%;
+}
+.common-2{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.common-3{
+    position: absolute;
+    bottom: 27%;
+    left: 45%;
+}
+.common-4{
+    position: absolute;
+    bottom: 8%;
+    left: 45%;
+}
+.vl {
+    border-left: 6px solid #272C45;
+    height: 1100px;
+    position: absolute;
+    top: 31%;
+    left: 49.7%;
+    z-index: 1;
+  }
+  .common i{
+      font-size: 100px;
+  }
+  .common-1 i{
+    color: #00BCD4;
+  }
+  .common-2 i{
+    color: #4ED2B3;
+  }
+  .common-3 i{
+      color: #D2FF5A;
+  }
+  .common-4 i{
+      color: #FF9437;
+  }
+  .common a{
+      display: block;
+  }
+  .common:hover{
+      background-color: rgba(225, 225, 225, 0.5);
+      cursor: pointer;
+  }
+  
